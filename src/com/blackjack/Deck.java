@@ -17,7 +17,7 @@ public class Deck {
         for(int i = 0; i < RANKS.length; i++) {
             for(Suit s : Suit.values()) {
                 deck.add(new Card(s, RANKS[i]));
-                System.out.println(deck.get(deck.size() - 1));
+//                System.out.println(deck.get(deck.size() - 1));
             }
         }
     }
